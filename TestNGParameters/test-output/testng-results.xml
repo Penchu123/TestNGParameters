@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="162" started-at="2020-01-27T08:48:42Z" finished-at="2020-01-27T08:48:42Z">
+    <groups>
+    </groups>
+    <test name="Fruits" duration-ms="56" started-at="2020-01-27T08:48:42Z" finished-at="2020-01-27T08:48:42Z">
+      <class name="TestNGParameters.Fruits">
+        <test-method status="PASS" signature="mango(java.lang.String)[pri:0, instance:TestNGParameters.Fruits@52af6cff]" name="mango" duration-ms="19" started-at="2020-01-27T14:18:42Z" finished-at="2020-01-27T14:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mango]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mango -->
+        <test-method status="PASS" signature="orange(java.lang.String)[pri:0, instance:TestNGParameters.Fruits@52af6cff]" name="orange" duration-ms="4" started-at="2020-01-27T14:18:42Z" finished-at="2020-01-27T14:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[orange]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- TestNGParameters.Fruits -->
+    </test> <!-- Fruits -->
+    <test name="Vegetables" duration-ms="13" started-at="2020-01-27T08:48:42Z" finished-at="2020-01-27T08:48:42Z">
+      <class name="TestNGParameters.Vegetable">
+        <test-method status="PASS" signature="c(java.lang.String)[pri:0, instance:TestNGParameters.Vegetable@548b7f67]" name="c" duration-ms="4" started-at="2020-01-27T14:18:42Z" finished-at="2020-01-27T14:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cauliflower]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method status="PASS" signature="orange(java.lang.String)[pri:0, instance:TestNGParameters.Vegetable@548b7f67]" name="orange" duration-ms="3" started-at="2020-01-27T14:18:42Z" finished-at="2020-01-27T14:18:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ladyfinger]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orange -->
+      </class> <!-- TestNGParameters.Vegetable -->
+    </test> <!-- Vegetables -->
+  </suite> <!-- Suite -->
+</testng-results>

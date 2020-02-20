@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+<!-- 	<parameter name="a" value="5" />
+	<parameter name="b" value="3" />
+	<test name="Sum">
+		<classes>
+			<class name="TestNGParameters.Sum" />
+		</classes>
+	</test>
+	<test name="Subtract">
+		<classes>
+			<class name="TestNGParameters.Subtract" />
+		</classes>
+	</test>
+	<test name="Multiply">
+		<classes>
+			<class name="TestNGParameters.Multiply" />
+		</classes>
+	</test> -->
+
+	<test name="Fruits">
+		<parameter name="mango" value="mango" />
+		<parameter name="orange" value="orange" />
+		<classes>
+			<class name="TestNGParameters.Fruits" />
+		</classes>
+	</test>
+	<test name="Vegetables">
+		<parameter name="Cauliflower" value="Cauliflower" />
+		<parameter name="Ladyfinger" value="Ladyfinger" />
+		<classes>
+			<class name="TestNGParameters.Vegetable" />
+		</classes>
+	</test> 
+	
+</suite>  
